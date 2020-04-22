@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Volunteer</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="volunteer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-area">
+        <div class="header-top_area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-6 col-md-12 col-lg-8"></div>
+
+              <div class="col-xl-6 col-md-6 col-lg-4">
+                <div class="short_contact_list">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-sign-in" aria-hidden="true"></i
+                        >Login/Register
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-language" aria-hidden="true"></i>Lang</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="sticky-header" class="main-header-area">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-xl-3 col-lg-3">
+                <div class="logo">
+                  <a href="faq.html">
+                    <img src="logoh.png" alt="" class="imglogo" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-xl-9 col-lg-9">
+                <div class="main-menu">
+                  <nav>
+                    <ul id="navigation">
+                      <li><a href="faq.html">Home</a></li>
+
+                      <li>
+                        <a href="#"
+                          >About
+                          <i class="fa fa-caret-down" aria-hidden="true"></i
+                        ></a>
+                        <ul class="submenu">
+                          <li><a href="#">Who We Are</a></li>
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Awards</a></li>
+                        </ul>
+                      </li>
+
+                      <li><a href="#">Gallery</a></li>
+                      <li><a href="#">Hunger Spots</a></li>
+                      <li><a href="#">Volunteer</a></li>
+                      <li><a href="#">Donate</a></li>
+
+                      <li>
+                        <a href="#"
+                          >Contact Us <i class="fa fa-caret-down"></i
+                        ></a>
+                        <ul class="submenu">
+                          <li><a href="#">Contact Details</a></li>
+
+                          <li><a href="#">Get in touch</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="mainhead">
+        <h1>BECOME A VOLUNTEER</h1>
+        <br />
+        <p>
+          Feed The Need is a participative drive, where similar individuals meet
+          up to the assistance of the most required with nourishment. In the
+          event that you are somebody who needs to have any kind of effect in
+          the life of an individual, you can do that by contributing your
+          opportunity to our different activities.
+        </p>
+        <p>
+          We encourage you in visiting the hunger spots and distributing the
+          food if you have the inclination and the time.
+        </p>
+      </div>
+
+      <div class="signup-content">
+        <div class="signup-form">
+          <form method="POST" class="register-form" id="register-form">
+            <h3>Volunteer Registration Form</h3>
+            <br /><br />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Name :</label>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  required
+                  placeholder="First name"
+                />
+              </div>
+              <div class="form-group">
+                <br />
+                <input
+                  type="textarea"
+                  name="lname"
+                  id="lname"
+                  required
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+
+            <div class="form-radio">
+              <label for="gender" class="radio-label">Gender :</label>
+              <div class="form-radio-item">
+                <input type="radio" name="gender" id="male" checked />
+                <label for="male">Male</label>
+                <span class="check"></span>
+              </div>
+              <div class="form-radio-item">
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+                <span class="check"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="birth_date">DOB :</label>
+              <input type="date" name="birth_date" id="birth_date" />
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address :</label>
+
+              <textarea
+                class="textarea"
+                type="text"
+                name="address"
+                id="address"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="phoneno">Phone no :</label>
+              <input type="text" name="phoneno" id="phoneno" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email ID :</label>
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <div class="form-group">
+              <label for="attach">Attach ID Prof :</label>
+              <input type="file" name="file" id="attach" class="file" />
+            </div>
+
+            <div class="form-submit">
+              <input
+                type="reset"
+                value="Reset All"
+                class="submit"
+                name="reset"
+                id="reset"
+              />
+              <input
+                type="submit"
+                value="Submit Form"
+                class="submit"
+                name="submit"
+                id="submit"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+      <br /><br /><br />
+    </div>
+  </body>
+</html>
